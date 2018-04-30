@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "./Topic.css";
 import Card from "../Card/Card";
+import DrawCard from "../DrawCard/DrawCard";
 
 class Topic extends Component {
   constructor(props) {
     super(props);
+    this.updateCard = this.updateCard.bind(this);
     this.state = {
       cards: [
         { id: 1, question: "Qn_1", answer: "Ans_1" },
@@ -31,15 +33,22 @@ class Topic extends Component {
     return card;
   }
 
+  updateCard() {
+    const currentCards = this.state.cards;
+    this.setState({ currentCard: this.getRandomCard(currentCards) });
+  }
+
   componentDidMount() {}
 
   render() {
     return (
       <div className="Topic">
+        <h1>{this.props.title}</h1>
         <Card
           question={this.state.currentCard.question}
           answer={this.state.currentCard.answer}
         />
+        <DrawCard drawCard={this.updateCard} />
       </div>
     );
   }

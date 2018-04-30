@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Topic />
+        <Topic title="Learn new things!" />
       </div>
     );
   }
