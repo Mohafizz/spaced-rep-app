@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./DrawCard.css";
 
 class DrawCard extends Component {
   constructor(props) {

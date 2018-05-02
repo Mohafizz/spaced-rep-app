@@ -1,0 +1,64 @@
+.card-container {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+  transition: ease-in;
+}
+
+.card {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid #300;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.card .front {
+  height: 300px;
+  width: 300px;
+  backface-visibility: hidden;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(255, 251, 251, 1);
+}
+
+.card .back {
+  height: 300px;
+  width: 300px;
+  backface-visibility: hidden;
+  text-align: center;
+  transform: rotateY(180deg);
+  background-color: rgba(255, 251, 251, 1);
+}
+
+.question {
+  color: #000;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 20%;
+}
+
+.answer {
+  color: red;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 20%;
+}
+
+.card-id {
+  font-style: italic;
+  color: plum;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
