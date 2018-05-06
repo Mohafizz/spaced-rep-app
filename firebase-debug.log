@@ -1,0 +1,41 @@
+[debug] [2018-05-06T11:54:39.429Z] ----------------------------------------------------------------------
+[debug] [2018-05-06T11:54:39.431Z] Command:       /usr/local/Cellar/node/9.11.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-06T11:54:39.431Z] CLI Version:   3.18.4
+[debug] [2018-05-06T11:54:39.431Z] Platform:      darwin
+[debug] [2018-05-06T11:54:39.431Z] Node Version:  v9.11.1
+[debug] [2018-05-06T11:54:39.431Z] Time:          Sun May 06 2018 19:54:39 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:39.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-06T11:54:39.441Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-06T11:54:39.442Z] > authorizing via signed-in user
+[debug] [2018-05-06T11:54:39.443Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-06T11:54:39.443Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/H6xFWVabB69VS0KTgSPPmGUb2vKc8k0qHtG1fuLNv7ebLflzuVLBWOhibztztMfC',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun May 06 2018 19:54:39 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:39.567Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T11:54:39.576Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-spaced-rep-app  
+  
+ Sun May 06 2018 19:54:39 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:40.529Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T11:54:40.530Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-spaced-rep-app/tokens  
+  
+ Sun May 06 2018 19:54:40 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:41.264Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-06T11:54:41.265Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-spaced-rep-app  
+  
+ Sun May 06 2018 19:54:41 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:42.480Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/mohamedhafiz/Jumpstart/Week10/spaced-rep-app'...
+[info] 
+[debug] [2018-05-06T11:54:42.483Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/755079720159/clients/_:getWebAppConfig  
+  
+ Sun May 06 2018 19:54:42 GMT+0800 (+08)
+[debug] [2018-05-06T11:54:43.203Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+

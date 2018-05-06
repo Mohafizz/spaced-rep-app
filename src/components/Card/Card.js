@@ -6,7 +6,9 @@ const Card = props => (
     <div className="card">
       <div className="front">
         <div className="question">{props.question}</div>
-        <div className="card-id">Card no: {props.id}</div>
+        <div className="card-id">
+          Card no: {props.id} of {props.total}
+        </div>
       </div>
       <div className="back">
         <div className="answer">{props.answer}</div>

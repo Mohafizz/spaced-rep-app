@@ -5,31 +5,36 @@ import DrawCard from "../DrawCard/DrawCard";
 import { DB_CONFIG } from "../../Config/Firebase/db_config";
 import firebase from "firebase/app";
 import "firebase/database";
+import Dropdown from "react-dropdown";
+import "react-dropdown/style.css";
+const options = ["Arrays", "Topic 1", "Topic 2"];
 
 class Topic extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
+    this.state = {
+      selected: options[0],
+      cards: [],
+      currentCard: {}
+    };
+    this._onSelect = this._onSelect.bind(this);
+    this.updateCard = this.updateCard.bind(this);
 
     this.app = firebase.initializeApp(DB_CONFIG);
     this.database = this.app
       .database()
       .ref()
       .child("title")
-      .child("Functions")
+      .child(this.state.selected)
       .child("cards");
+  }
 
-    this.updateCard = this.updateCard.bind(this);
-
-    this.state = {
-      title: {},
-      cards: [],
-      currentCard: {}
-    };
+  _onSelect(option) {
+    this.setState({ selected: option.value });
   }
 
   componentWillMount() {
     const currentCards = this.state.cards;
-
     this.database.on("child_added", snap => {
       currentCards.push({
         id: snap.key,
@@ -53,21 +58,21 @@ class Topic extends Component {
     this.setState({ currentCard: this.getRandomCard(currentCards) });
   }
 
-  componentDidMount() {}
-
   render() {
+    const defaultOption = this.state.selected;
     return (
       <div className="Topic">
-        <h1>
-          {Object.keys(this.state.title).map((element, i) => {
-            return <li index={i}>{element}/></li>;
-          })}
-        </h1>
-
+        <Dropdown
+          options={options}
+          onChange={this._onSelect}
+          value={defaultOption}
+          // placeholder="Please select"
+        />
         <Card
           question={this.state.currentCard.question}
           answer={this.state.currentCard.answer}
           id={parseInt(this.state.currentCard.id) + 1}
+          total={this.state.cards.length}
         />
         <br />
         <DrawCard drawCard={this.updateCard} />

@@ -1,0 +1,725 @@
+{
+  "title": [
+    {
+      "Arrays": {
+        "cards": [
+          {
+            "question":
+              "This Array prototype method tests if any of its elements pass a given test.",
+            "answer": "Array.prototype.some"
+          },
+          {
+            "question": "Array.prototype.some",
+            "answer":
+              "This Array prototype method tests if any of its elements pass a given test."
+          },
+          {
+            "question":
+              "This Array prototype method tests if all the elements pass a given test.",
+            "answer": "Array.prototype.every"
+          },
+          {
+            "question": "Array.prototype.every",
+            "answer":
+              "This Array prototype method tests if all the elements pass a given test."
+          },
+          {
+            "question":
+              "This Array static method allows you to create a new Array based on an array-like or iterable object.",
+            "answer": "Array.from"
+          },
+          {
+            "question": "Array.from",
+            "answer":
+              "This Array static method allows you to create a new Array based on an array-like or iterable object."
+          },
+          {
+            "question":
+              "This Array static method allows you to determine if a given object is an Array.",
+            "answer": "Array.isArray"
+          },
+          {
+            "question": "Array.isArray",
+            "answer":
+              "This Array static method allows you to determine if a given object is an Array."
+          },
+          {
+            "question":
+              "This Array prototype method allows you to merge two or more arrays.",
+            "answer": "Array.prototype.concat"
+          },
+          {
+            "question": "Array.prototype.concat",
+            "answer":
+              "This Array prototype method allows you to merge two or more arrays."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the elements in an array and changes them into a static value.",
+            "answer": "Array.prototype.fill"
+          },
+          {
+            "question": "Array.prototype.fill",
+            "answer":
+              "This Array prototype method mutates the elements in an array and changes them into a static value."
+          },
+          {
+            "question":
+              "This Array prototype method creates a new array with only the elements that pass a given test.",
+            "answer": "Array.prototype.filter"
+          },
+          {
+            "question": "Array.prototype.filter",
+            "answer":
+              "This Array prototype method creates a new array with only the elements that pass a given test."
+          },
+          {
+            "question":
+              "This Array prototype method returns the first element that satisfies a given test.",
+            "answer": "Array.prototype.find"
+          },
+          {
+            "question": "Array.prototype.find",
+            "answer":
+              "This Array prototype method returns the first element that satisfies a given test."
+          },
+          {
+            "question":
+              "This Array prototype method returns the index of the first element that passes a given test.",
+            "answer": "Array.prototype.findIndex"
+          },
+          {
+            "question": "Array.prototype.findIndex",
+            "answer":
+              "This Array prototype method returns the index of the first element that passes a given test."
+          },
+          {
+            "question":
+              "This Array prototype method has no useful return value but executes a function once on each element.",
+            "answer": "Array.prototype.forEach"
+          },
+          {
+            "question": "Array.prototype.forEach",
+            "answer":
+              "This Array prototype method has no useful return value but executes a function once on each element."
+          },
+          {
+            "question":
+              "This Array prototype method tests whether a given value is an element in the array.",
+            "answer": "Array.prototype.includes"
+          },
+          {
+            "question": "Array.prototype.includes",
+            "answer":
+              "This Array prototype method tests whether a given value is an element in the array."
+          },
+          {
+            "question":
+              "This Array prototype method returns the index of a given value in the array.",
+            "answer": "Array.prototype.indexOf"
+          },
+          {
+            "question": "Array.prototype.indexOf",
+            "answer":
+              "This Array prototype method returns the index of a given value in the array."
+          },
+          {
+            "question":
+              "This Array prototype method turns all elements into strings and concatenates them together.",
+            "answer": "Array.prototype.join"
+          },
+          {
+            "question": "Array.prototype.join",
+            "answer":
+              "This Array prototype method turns all elements into strings and concatenates them together."
+          },
+          {
+            "question":
+              "This Array prototype method returns the last index of a given value in the array",
+            "answer": "Array.prototype.lastIndexOf"
+          },
+          {
+            "question": "Array.prototype.lastIndexOf",
+            "answer":
+              "This Array prototype method returns the last index of a given value in the array"
+          },
+          {
+            "question":
+              "This Array prototype method creates a new array with the return value of running a given function on each element in the array.",
+            "answer": "Array.prototype.map"
+          },
+          {
+            "question": "Array.prototype.map",
+            "answer":
+              "This Array prototype method creates a new array with the return value of running a given function on each element in the array."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array, removing the last element and returning it.",
+            "answer": "Array.prototype.pop"
+          },
+          {
+            "question": "Array.prototype.pop",
+            "answer":
+              "This Array prototype method mutates the array, removing the last element and returning it."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array, adding an element to the end and returning the new length of the array.",
+            "answer": "Array.prototype.push"
+          },
+          {
+            "question": "Array.prototype.push",
+            "answer":
+              "This Array prototype method mutates the array, adding an element to the end and returning the new length of the array."
+          },
+          {
+            "question":
+              "This Array prototype method generates a single value from an array by running a given function on each element in the array, and keeping track of the result in an accumulator.",
+            "answer": "Array.prototype.reduce"
+          },
+          {
+            "question": "Array.prototype.reduce",
+            "answer":
+              "This Array prototype method generates a single value from an array by running a given function on each element in the array, and keeping track of the result in an accumulator."
+          },
+          {
+            "question":
+              "This Array prototype method behaves as Array.protoytpe.reduce, except that it runs through the array right-to-left.",
+            "answer": "Array.prototype.reduceRight"
+          },
+          {
+            "question": "Array.prototype.reduceRight",
+            "answer":
+              "This Array prototype method behaves as Array.protoytpe.reduce, except that it runs through the array right-to-left."
+          },
+          {
+            "question":
+              "This Array prototype method mutates an array to reverse its elements.",
+            "answer": "Array.prototype.reverse"
+          },
+          {
+            "question": "Array.prototype.reverse",
+            "answer":
+              "This Array prototype method mutates an array to reverse its elements."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array, removing the first element and returning it.",
+            "answer": "Array.prototype.shift"
+          },
+          {
+            "question": "Array.prototype.shift",
+            "answer":
+              "This Array prototype method mutates the array, removing the first element and returning it."
+          },
+          {
+            "question":
+              "This Array prototype method returns a new array with a shallow copy of some or all elements of the array, based on given indices.",
+            "answer": "Array.prototype.slice"
+          },
+          {
+            "question": "Array.prototype.slice",
+            "answer":
+              "This Array prototype method returns a new array with a shallow copy of some or all elements of the array, based on given indices."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array and sorts its elements, optionally with a given function to compare each pair of elements.",
+            "answer": "Array.prototype.sort"
+          },
+          {
+            "question": "Array.prototype.sort",
+            "answer":
+              "This Array prototype method mutates the array and sorts its elements, optionally with a given function to compare each pair of elements."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array by adding and/or removing elements at a given index.",
+            "answer": "Array.prototype.splice"
+          },
+          {
+            "question": "Array.prototype.splice",
+            "answer":
+              "This Array prototype method mutates the array by adding and/or removing elements at a given index."
+          },
+          {
+            "question":
+              "This Array prototype method mutates the array, adding an element to the beginning and returning the new length of the array.",
+            "answer": "Array.prototype.unshift"
+          },
+          {
+            "question": "Array.prototype.unshift",
+            "answer":
+              "This Array prototype method mutates the array, adding an element to the beginning and returning the new length of the array."
+          }
+        ]
+      }
+    },
+    "Functions",
+    {
+      "cards": [
+        {
+          "question":
+            "This Function prototype method calls a function with a given `this` value and arguments provided as an array.",
+          "answer": "Function.prototype.apply"
+        },
+        {
+          "question": "Function.prototype.apply",
+          "answer":
+            "This Function prototype method calls a function with a given `this` value and arguments provided as an array."
+        },
+        {
+          "question":
+            "This Function prototype method calls a function with a given `this` value and arguments provided as individual arguments.",
+          "answer": "Function.prototype.call"
+        },
+        {
+          "question": "Function.prototype.call",
+          "answer":
+            "This Function prototype method calls a function with a given `this` value and arguments provided as individual arguments."
+        },
+        {
+          "question":
+            "This Function prototype method creates a new function that, when called, will have a given `this` value and a given sequence of arguments.",
+          "answer": "Function.prototype.bind"
+        },
+        {
+          "question": "Function.prototype.bind",
+          "answer":
+            "This Function prototype method creates a new function that, when called, will have a given `this` value and a given sequence of arguments."
+        }
+      ]
+    },
+    "Numbers",
+    {
+      "cards": [
+        {
+          "question":
+            "This Number static method tests whether a given value is `NaN`.",
+          "answer": "Number.isNaN"
+        },
+        {
+          "question": "Number.isNaN",
+          "answer":
+            "This Number static method tests whether a given value is `NaN`."
+        },
+        {
+          "question":
+            "This Number static method tests whether a given value is an integer.",
+          "answer": "Number.isInteger"
+        },
+        {
+          "question": "Number.isInteger",
+          "answer":
+            "This Number static method tests whether a given value is an integer."
+        },
+        {
+          "question":
+            "This Number static method parses a given string and returns a floating point number.",
+          "answer": "Number.parseFloat"
+        },
+        {
+          "question": "Number.parseFloat",
+          "answer":
+            "This Number static method parses a given string and returns a floating point number."
+        },
+        {
+          "question":
+            "This Number static method parses a given string and returns an integer.",
+          "answer": "Number.parseInt"
+        },
+        {
+          "question": "Number.parseInt",
+          "answer":
+            "This Number static method parses a given string and returns an integer."
+        }
+      ]
+    },
+    "Strings",
+    {
+      "cards": [
+        {
+          "question":
+            "This String prototype method returns the character at a specified index.",
+          "answer": "String.prototype.charAt"
+        },
+        {
+          "question": "String.prototype.charAt",
+          "answer":
+            "This String prototype method returns the character at a specified index."
+        },
+        {
+          "question":
+            "This String prototype method combines the text of one or more strings and returns a new string.",
+          "answer": "String.prototype.concat"
+        },
+        {
+          "question": "String.prototype.concat",
+          "answer":
+            "This String prototype method combines the text of one or more strings and returns a new string."
+        },
+        {
+          "question":
+            "This String prototype method tests whether the string ends with a given string.",
+          "answer": "String.prototype.endsWith"
+        },
+        {
+          "question": "String.prototype.endsWith",
+          "answer":
+            "This String prototype method tests whether the string ends with a given string."
+        },
+        {
+          "question":
+            "This String prototype method tests whether the string contains a given string",
+          "answer": "String.prototype.includes"
+        },
+        {
+          "question": "String.prototype.includes",
+          "answer":
+            "This String prototype method tests whether the string contains a given string"
+        },
+        {
+          "question":
+            "<tr class=\"light-bottom-border\">       <td> This String prototype method returns the index of another given string in the string.</td></tr>",
+          "answer": "String.prototype.indexOf"
+        },
+        {
+          "question": "String.prototype.indexOf",
+          "answer":
+            "<tr class=\"light-bottom-border\">       <td> This String prototype method returns the index of another given string in the string.</td></tr>"
+        },
+        {
+          "question":
+            "This String prototype method returns the last index of another given string&nbsp; in the string.",
+          "answer": "String.prototype.lastIndexOf"
+        },
+        {
+          "question": "String.prototype.lastIndexOf",
+          "answer":
+            "This String prototype method returns the last index of another given string&nbsp; in the string."
+        },
+        {
+          "question":
+            "This String prototype method runs a Regular Expression against the string and returns the matched groups.",
+          "answer": "String.prototype.match"
+        },
+        {
+          "question": "String.prototype.match",
+          "answer":
+            "This String prototype method runs a Regular Expression against the string and returns the matched groups."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string of a specified length by adding a given string multiple times at the end of the string.",
+          "answer": "String.prototype.padEnd"
+        },
+        {
+          "question": "String.prototype.padEnd",
+          "answer":
+            "This String prototype method returns a new string of a specified length by adding a given string multiple times at the end of the string."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string of a specified length  by adding a given string multiple times at the beginning of the string.",
+          "answer": "String.prototype.padStart"
+        },
+        {
+          "question": "String.prototype.padStart",
+          "answer":
+            "This String prototype method returns a new string of a specified length  by adding a given string multiple times at the beginning of the string."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string containing a repetition of the string for a given number of times.",
+          "answer": "String.prototype.repeat"
+        },
+        {
+          "question": "String.prototype.repeat",
+          "answer":
+            "This String prototype method returns a new string containing a repetition of the string for a given number of times."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by replacing a given Regular Expression or substring match with a given replacement string (or return value of a given callback function).",
+          "answer": "String.prototype.replace"
+        },
+        {
+          "question": "String.prototype.replace",
+          "answer":
+            "This String prototype method returns a new string formed by replacing a given Regular Expression or substring match with a given replacement string (or return value of a given callback function)."
+        },
+        {
+          "question":
+            "This String prototype method runs a Regular Expression against the string and returns the index of the first match.",
+          "answer": "String.prototype.search"
+        },
+        {
+          "question": "String.prototype.search",
+          "answer":
+            "This String prototype method runs a Regular Expression against the string and returns the index of the first match."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string some or all of the characters of the string, based on given indices.",
+          "answer": "String.prototype.slice"
+        },
+        {
+          "question": "String.prototype.slice",
+          "answer":
+            "This String prototype method returns a new string some or all of the characters of the string, based on given indices."
+        },
+        {
+          "question":
+            "This String prototype method returns an array of strings by separating the string into substrings. If a separator string is not given, it is separated into individual characters.",
+          "answer": "String.prototype.split"
+        },
+        {
+          "question": "String.prototype.split",
+          "answer":
+            "This String prototype method returns an array of strings by separating the string into substrings. If a separator string is not given, it is separated into individual characters."
+        },
+        {
+          "question":
+            "This String prototype method tests whether the string begins with a given string.",
+          "answer": "String.protoype.startsWith"
+        },
+        {
+          "question": "String.protoype.startsWith",
+          "answer":
+            "This String prototype method tests whether the string begins with a given string."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by turning every character in the string into its lower-case form.",
+          "answer": "String.prototype.toLowerCase"
+        },
+        {
+          "question": "String.prototype.toLowerCase",
+          "answer":
+            "This String prototype method returns a new string formed by turning every character in the string into its lower-case form."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by turning every character in the string into its upper-case form.",
+          "answer": "String.prototype.toUpperCase"
+        },
+        {
+          "question": "String.prototype.toUpperCase",
+          "answer":
+            "This String prototype method returns a new string formed by turning every character in the string into its upper-case form."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by removing leading and trailing whitespace.",
+          "answer": "String.prototype.trim"
+        },
+        {
+          "question": "String.prototype.trim",
+          "answer":
+            "This String prototype method returns a new string formed by removing leading and trailing whitespace."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by removing leading whitespace.",
+          "answer": "String.prototype.trimLeft"
+        },
+        {
+          "question": "String.prototype.trimLeft",
+          "answer":
+            "This String prototype method returns a new string formed by removing leading whitespace."
+        },
+        {
+          "question":
+            "This String prototype method returns a new string formed by removing trailing whitespace.",
+          "answer": "String.prototype.trimRight"
+        },
+        {
+          "question": "String.prototype.trimRight",
+          "answer":
+            "This String prototype method returns a new string formed by removing trailing whitespace."
+        }
+      ]
+    },
+    "Objects",
+    {
+      "cards": [
+        {
+          "question":
+            "This Object static method mutates an object by copying the values of all enumerable own properties from one or more source objects onto the target object.",
+          "answer": "Object.assign"
+        },
+        {
+          "question": "Object.assign",
+          "answer":
+            "This Object static method mutates an object by copying the values of all enumerable own properties from one or more source objects onto the target object."
+        },
+        {
+          "question":
+            "This Object static method returns a new object with the specified prototype object and specified properties.",
+          "answer": "Object.create"
+        },
+        {
+          "question": "Object.create",
+          "answer":
+            "This Object static method returns a new object with the specified prototype object and specified properties."
+        },
+        {
+          "question":
+            "This Object static method mutates a given object by adding new (or modifying existing) properties.",
+          "answer": "Object.defineProperties"
+        },
+        {
+          "question": "Object.defineProperties",
+          "answer":
+            "This Object static method mutates a given object by adding new (or modifying existing) properties."
+        },
+        {
+          "question":
+            "This Object static method mutates a given object by adding a single new (or modifying an existing) property.",
+          "answer": "Object.defineProperty"
+        },
+        {
+          "question": "Object.defineProperty",
+          "answer":
+            "This Object static method mutates a given object by adding a single new (or modifying an existing) property."
+        },
+        {
+          "question":
+            "This Object static method returns an array of [key, value] pairs of the given object's own enumerable properties.",
+          "answer": "Object.entries"
+        },
+        {
+          "question": "Object.entries",
+          "answer":
+            "This Object static method returns an array of [key, value] pairs of the given object's own enumerable properties."
+        },
+        {
+          "question":
+            "This Object static method returns all own enumerable and non-enumerable property names on a given object.",
+          "answer": "Object.getOwnPropertyNames"
+        },
+        {
+          "question": "Object.getOwnPropertyNames",
+          "answer":
+            "This Object static method returns all own enumerable and non-enumerable property names on a given object."
+        },
+        {
+          "question":
+            "This Object static method returns all own enumerable property names on a given object.",
+          "answer": "Object.keys"
+        },
+        {
+          "question": "Object.keys",
+          "answer":
+            "This Object static method returns all own enumerable property names on a given object."
+        },
+        {
+          "question":
+            "This Object prototype method tests whether a given object has a given own property.",
+          "answer": "Object.prototype.hasOwnProperty"
+        },
+        {
+          "question": "Object.prototype.hasOwnProperty",
+          "answer":
+            "This Object prototype method tests whether a given object has a given own property."
+        },
+        {
+          "question":
+            "This Object prototype method tests whether the object exists in a given object's prototype chain",
+          "answer": "Object.prototype.isPrototypeOf"
+        },
+        {
+          "question": "Object.prototype.isPrototypeOf",
+          "answer":
+            "This Object prototype method tests whether the object exists in a given object's prototype chain"
+        },
+        {
+          "question":
+            "This Object static method returns an array of a given object's own enumerable property values.",
+          "answer": "Object.values"
+        },
+        {
+          "question": "Object.values",
+          "answer":
+            "This Object static method returns an array of a given object's own enumerable property values."
+        },
+        {
+          "question":
+            "This Object prototype method returns the primitive value of the object. Overwriting it on your classes is useful for being able to use comparators like `&lt;`, `===`, etc. on complex objects.",
+          "answer": "Object.prototype.valueOf"
+        },
+        {
+          "question": "Object.prototype.valueOf",
+          "answer":
+            "This Object prototype method returns the primitive value of the object. Overwriting it on your classes is useful for being able to use comparators like `&lt;`, `===`, etc. on complex objects."
+        }
+      ]
+    },
+    "Promises",
+    {
+      "cards": [
+        {
+          "question":
+            "This Promise static method returns a single promise that resolves when all promises in a given array resolve. It resolves with an array of the resolved values from the given promises. It rejects with the reason of the first promise that rejects.",
+          "answer": "Promise.all"
+        },
+        {
+          "question": "Promise.all",
+          "answer":
+            "This Promise static method returns a single promise that resolves when all promises in a given array resolve. It resolves with an array of the resolved values from the given promises. It rejects with the reason of the first promise that rejects."
+        },
+        {
+          "question":
+            "This Promise static method returns a promise that resolves or rejects as soon as the first promise in a given array resolves or rejects. The resolved or rejected value is that of the first resolved or rejected promise.",
+          "answer": "Promise.race"
+        },
+        {
+          "question": "Promise.race",
+          "answer":
+            "This Promise static method returns a promise that resolves or rejects as soon as the first promise in a given array resolves or rejects. The resolved or rejected value is that of the first resolved or rejected promise."
+        },
+        {
+          "question":
+            "This Promise static method returns a Promise that resolves with a given value.",
+          "answer": "Promise.resolve"
+        },
+        {
+          "question": "Promise.resolve",
+          "answer":
+            "This Promise static method returns a Promise that resolves with a given value."
+        },
+        {
+          "question":
+            "This Promise static method returns a Promise that rejects with a given value.",
+          "answer": "Promise.reject"
+        },
+        {
+          "question": "Promise.reject",
+          "answer":
+            "This Promise static method returns a Promise that rejects with a given value."
+        },
+        {
+          "question":
+            "This Promise prototype method takes up to two callback functions, a success callback and a failure callback, which will be called upon resolution or rejection of the promise. This method returns a new Promise. If the callbacks return, this method's returned promise will resolve; if they reject, it will reject.",
+          "answer": "Promise.prototype.then"
+        },
+        {
+          "question": "Promise.prototype.then",
+          "answer":
+            "This Promise prototype method takes up to two callback functions, a success callback and a failure callback, which will be called upon resolution or rejection of the promise. This method returns a new Promise. If the callbacks return, this method's returned promise will resolve; if they reject, it will reject."
+        },
+        {
+          "question":
+            "This Promise prototype method takes a single callback functions,&nbsp; a failure callback, which will be called upon  rejection of the promise. This method returns a new  Promise. If the callback returns, this method's returned promise will  resolve; if it rejects, the promise will reject.",
+          "answer": "Promise.prototype.catch"
+        },
+        {
+          "question": "Promise.prototype.catch",
+          "answer":
+            "This Promise prototype method takes a single callback functions,&nbsp; a failure callback, which will be called upon  rejection of the promise. This method returns a new  Promise. If the callback returns, this method's returned promise will  resolve; if it rejects, the promise will reject."
+        }
+      ]
+    }
+  ]
+}
